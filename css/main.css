@@ -36,6 +36,10 @@
   font-weight: 600;
 }
 
+.portada--titles__secundaryP3{
+    margin-left: 15px;
+}
+
 .titles--colors__grey{
   color: grey;
 }
@@ -55,7 +59,11 @@
   width: 100%;
   align-items: center;
 }
-
+.logo{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
 .circl{
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -81,27 +89,9 @@
   height: 195px;
 }
 
-.circle--menu {
-  position: absolute;
-  width: 3vw;
-  height: 3vw;
-  border-radius: 50%;
-  border: solid white 1px;
-  right: 8%;
-  top: 100%;
-  margin-top: -10%;
-}
-.circle--menu__min {
-  position: absolute;
-  width: 2vw;
-  height: 2vw;
-  border-radius: 50%;
-  border: solid white 1px;
-  right: 14.5%;
-  top: 24%;
-  margin-top: -10%;
-  background-color: white;
-  opacity: 0.5;
+.menu {
+  border: solid 2px white;
+  padding: 1%;
 }
 
 .flecha{
@@ -121,3 +111,50 @@
   transform: translate(-45%, 0%);
 }
 
+.letters--letter-D{
+  transform: translate(45%, 0%);
+}
+
+.btn-floating i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+.fixed-action-btn ul li {
+    margin-bottom: 50%;
+}
+
+.btn-floating {
+    width: 100px;
+    height: 40px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

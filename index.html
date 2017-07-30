@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
     <title>Itzel Jiménez Domínguez</title>
   </head>
-  <body>
+  <body class="">
       <header class="full-width portada">
         <div class="row">
+          <div class="logo"> <img src="img/logo7IJD.png" alt="logo" width="64px" ></div>
           <div id="fotos-portada" class="portada1 hide">
             <div class="portada--logo__center m-r">
               <img src="img/fotosItzel/itzy-bitzy-arana.png" class="responsive-img right portada--foto">
@@ -25,35 +26,46 @@
           </div>
           <div class="portada--logo__center" id="letters">
             <h1 class="portada--font__big letter-I hide portada1">I</h1>
-            <h1 class="portada--font__big letters--letter-J ">J</h1>
-            <h1 class="portada--font__big letter-D hide portada3">D</h1>
+            <h1 class="portada--font__big letters--letter-J portada2 hide ">J</h1>
+            <h1 class="portada--font__big letters--letter-D hide portada3">D</h1>
           </div>
 
           <div id="circles-port1 ">
-            <div class="portada--logo__center">
-              <div class="circl circle--min hide"></div>
+            <div class="portada--logo__center portada1 hide">
+              <div class="circl circle--min "></div>
             </div>
-            <div class="portada--logo__center">
-              <div class="circl circle--medium"></div>
+            <div class="portada--logo__center portada1 portada2 portada3 hide">
+              <div class="circl circle--medium "></div>
             </div>
-            <div class="portada--logo__center">
-              <div class="circl circle--max"></div>
+            <div class="portada--logo__center portada2 portada3 hide">
+              <div class="circl circle--max "></div>
             </div>
 
           </div>
           
           <div class="portada--logo__center" id="titles">
             <h2 class="white-text center portada--titles__primary portada1 hide">Itzel Jiménez</h2>
-            <h2 class="white-text center portada--titles__secundary">Front end <span class="titles--colors__grey">Developer</span></h2>
+            <h2 class="white-text center portada--titles__secundary portada2 hide">Front end <span class="titles--colors__grey">Developer</span></h2>
+            <h2 class="grey-text center portada--titles__secundary portada--titles__secundaryP3 portada3 hide">Front end <span class="white-text">Developer</span></h2>
           </div>
           <div class=" portada--fixed-Under">
-            <a class="flecha portada--font__title"><i class="fa fa-angle-down white-text" aria-hidden="true"></i></a>
+            <a class="flecha portada--font__title" href="#sobre-mi"><i class="fa fa-angle-down fa-4x white-text" aria-hidden="true"></i></a>
           </div>
-          <div class=" circle--menu">
-            <div class="circle--menu__min"></div>
+          <div class="menu fixed-action-btn">
+            <a href="#" id="menu" class="btn-floating black"><i class="fa fa-bars grey-text  fa-3x " aria-hidden="true"></i></a>
+            <ul>
+              <li><a class="btn-floating black white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Sobre mí"><i class="fa fa-female white-text" aria-hidden="true"></i></a></li>
+              <li><a class="btn-floating black tooltipped" data-position="bottom" data-delay="50" data-tooltip="Habilidades"><i class="material-icons">build</i></a></li>
+              <li><a class="btn-floating black tooltipped" data-position="bottom" data-delay="50" data-tooltip="Proyectos"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+              <li><a class="btn-floating black tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contacto"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+            </ul>
           </div>
-        </div>
+
+
       </header>
+
+
+
     
     <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
     <script src="js/materialize.min.js" charset="utf-8"></script>
