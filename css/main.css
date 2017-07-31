@@ -1,7 +1,12 @@
-.portada{
+.full-width{
   width     : 100%; 
   height    : 100vh; 
-  background-color: black;
+  background-size: cover;
+  text-align: 100% 100%;
+}
+.medium-screen{
+  width     : 50%; 
+  height    : 100vh; 
   background-size: cover;
   text-align: 100% 100%;
 }
@@ -50,6 +55,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+ 
+.portada--logo__left{
+  left: 25%;
+  bottom: 0;
+}
 
 .portada--fixed-Under{
   position: fixed;
@@ -63,6 +73,11 @@
   position: absolute;
   margin-top: 5%;
   margin-left: 5%;
+}
+
+.logo-inverse{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .circl{
   -moz-border-radius: 50%;
@@ -158,3 +173,38 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+.section-titles{
+  position: absolute;
+  top: 10%; 
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.section-titles_size{
+  font-size: 6vw;
+}
+
+p{
+  text-align: justify;
+}
+.cv{
+  border: 2px white solid;
+  padding: 10%;
+  cursor: pointer;
+}
+.cv:hover{
+  color: black;
+  background-color: white;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    box-shadow: none;
+}
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+    box-shadow: none;
+}
+
+.btn-floating{
+  border-radius: 0%;
