@@ -208,3 +208,16 @@ p{
 
 .btn-floating{
   border-radius: 0%;
+}
+
+.m-bottom{
+  margin-bottom: 5%;
+}
+
+.maquetacion, .apis, .responsividad, .colaborativo{
+  cursor: pointer;
+}
+
+.border{
+  border:solid 1px black;
+}

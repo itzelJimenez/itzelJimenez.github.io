@@ -13,7 +13,7 @@
     <title>Itzel Jiménez Domínguez</title>
   </head>
   <body class="">
-      <header class="full-width portada black hide">
+      <header id="portada" class="full-width portada black hide">
         <div class="row">
           <div class="logo"> <img src="img/logo7IJD.png" alt="logo" width="64px" ></div>
           <div id="fotos-portada" class="portada1 hide">
@@ -61,7 +61,7 @@
             </ul>
           </div>
       </header>
-      <section class="full-width black hide" id="sobre-mi">
+      <section id="sobre-mi" class="full-width black hide">
         <div class="logo logo-inverse"> <img src="img/logo7IJD.png" alt="logo" width="64px" ></div>
         
         <div class="row">
@@ -105,29 +105,45 @@
 
       </section>
 
-      <section class="full-width white" id="habilidades">
+      <section id="habilidades" class="full-width white hide">
         <div class="logo logo-inverse"> <img src="img/logo7IJD.png" alt="logo" width="64px" ></div>
         <div class="row">
           <h2 class="section-titles_size center">Servicios</h2>
         </div>
         <div class="row">
           <div class="col s8 offset-s2">
-            <div class="col s3 offset-s1">
-              <img src="img/html5.png" alt="" class="responsive-img circle">
-              <h4 class="center">HTML5</h4>
-              <p class="center">Estructura y presentación de contenido en la World Wide Web.</p>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/html5.png" alt="HTML5" class="responsive-img circle">
+              <h5 class="center">HTML5</h5>
             </div>
-            <div class="col s3 offset-s1">
-              <img src="img/css3.png" alt="" class="responsive-img circle">
-              <h4 class="center">CSS3</h4>
-              <p class="center">Desarrollo y adaptación de sitios web con CSS3</p>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/css3.png" alt="CSS3" class="responsive-img circle">
+              <h5 class="center">CSS3</h5> 
             </div>
-            <div class="col s3 offset-s1">
-              <img src="img/js.png" alt="" class="responsive-img circle">
-              <h4 class="center">JAVASCRIPT</h4>
-              <p class="center">Carga de páginas dinámicas y uso de Node.js del lado del servidor.</p>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/js.png" alt="JAVASCRIPT" class="responsive-img circle">
+              <h5 class="center">JAVASCRIPT</h5>
             </div>
-            
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/github.png" alt="GITHUB" class="responsive-img circle">
+              <h5 class="center">GITHUB</h5>
+            </div>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/responsive.png" alt="RESPONSIVE" class="responsive-img circle">
+              <h5 class="center">RESPONSIVE</h5>
+            </div>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/materialize.png" alt="MATERIALIZE" class="responsive-img circle">
+              <h5 class="center">MATERIALIZE</h5> 
+            </div>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/bootstrap.png" alt="BOOTSTRAP" class="responsive-img circle">
+              <h5 class="center">BOOTSTRAP</h5>
+            </div>
+            <div class="col s2 offset-s1 m-bottom">
+              <img src="img/jq.png" alt="JQuery" class="responsive-img circle">
+              <h5 class="center">JQuery</h5>
+            </div>            
         </div>
         
 
@@ -147,7 +163,111 @@
 
       </section>
 
+      <section id="proyectos" class="full-width black">
+        <div class="logo"> <img src="img/logo7IJD.png" alt="logo" width="64px" ></div>
 
+        <div class="row black">
+          <h2 class="white-text section-titles_size center">Mis proyectos</h2>
+          <div class="col s8 offset-s2">
+            <div class="row">
+              <div class="col s6 maquetacion">
+                <a href="#proyectos-maqueta" class="modal-trigger">
+                  <img src="img/logos/maquetacion.png" alt="" class="responsive-img">
+                  <h4 class="white-text center">MAQUETACIÓN</h4>
+                </a>
+              </div>
+              <div class="col s6 responsividad">
+                <a href="#proyectos-responsive" class="modal-trigger">
+                  <img src="img/logos/responsive-d.png" alt="" class="responsive-img">
+                  <h4 class="white-text center">RESPONSIVIDAD</h4>
+              </div>
+              <div class="col s6 colaborativo">
+                <img src="img/logos/colaborativo.png" alt="" class="responsive-img">
+                <h4 class="white-text center">COLABORATIVOS</h4>
+              </div>
+              <div class="col s6 apis">
+                <img src="img/logos/apis.png" alt="" class="responsive-img">
+                <h4 class="white-text center">API'S</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class=" portada--fixed-Under black">
+          <a class="flecha portada--font__title" href="#proyectos"><i class="fairclefa-angle-down fa-4x grey-text" aria-hidden="true"></i></a>
+        </div>
+        <div class="menu fixed-action-btn"ircle
+          <a href="#" id="menu" class="btn-floating white"><i class="fa fa-bars grey-text  fa-3x black-text" aria-hidden="true"></i></a>
+          <ulircle
+            <li><a class="btn-floating white white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Inicio" href="#inicio"><i class="fa fa-home black-text" aria-hidden="true"></i></a></li>
+            <li><a class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Habilidades" href="#sobre-mi"><i class="fa fa-female black-text"></i></a></li>
+            <li><a class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Proyectos" href="#proyectos"><i class="fa fa-code black-text" aria-hidden="true"></i></a></li>
+            <li><a class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contacto" href="#contacto"><i class="fa fa-envelope-o black-text" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="modales">
+          
+
+          <div id="proyectos-maqueta" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <h4 class="center">Proyectos de Maquetación</h4>
+                <div class="col s4">
+                  <img src="img/proyect/google.png" alt="" class="responsive-img ">
+                  <div class="row">
+                    <div class="col s6 center black"><i class="fa fa-code white-text" aria-hidden="true"></i></div>
+                    <div class="col s6 center white border"><i class="fa fa-external-link black-text" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+                <div class="col s4">
+                  <img src="img/proyect/freelancer.png" alt="" class="responsive-img ">
+                  <div class="row">
+                    <div class="col s6 center black"><i class="fa fa-code white-text" aria-hidden="true"></i></div>
+                    <div class="col s6 center white border"><i class="fa fa-external-link black-text" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+                <div class="col s4">
+                  <img src="img/proyect/applove.png" alt="" class="responsive-img ">
+                  <div class="row">
+                    <div class="col s6 center black"><i class="fa fa-code white-text" aria-hidden="true"></i></div>
+                    <div class="col s6 center white border"><i class="fa fa-external-link black-text" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+            </div>
+          </div>
+
+
+          <div id="proyectos-responsive" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <h4 class="center">Proyectos de Maquetación</h4>
+                <div class="col s6">
+                  <img src="img/proyect/dancesport.png" alt="" class="responsive-img ">
+                  <div class="row">
+                    <div class="col s6 center black"><i class="fa fa-code white-text" aria-hidden="true"></i></div>
+                    <div class="col s6 center white border"><i class="fa fa-external-link black-text" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+                <div class="col s6">
+                  <img src="img/proyect/labcar.png" alt="" class="responsive-img ">
+                  <div class="row">
+                    <div class="col s6 center black"><i class="fa fa-code white-text" aria-hidden="true"></i></div>
+                    <div class="col s6 center white border"><i class="fa fa-external-link black-text" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+            </div>
+          </div>
+      </section>
 
     
     <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>

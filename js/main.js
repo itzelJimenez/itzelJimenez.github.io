@@ -2,6 +2,7 @@
  var cargarPagina = function(){
  	mostrarPortada1();
  	cambiarPortadas();
+ 	    $('.modal').modal();
 
   $('#menu').click( function(){ $('.tap-target').tapTarget('open');})
  };
