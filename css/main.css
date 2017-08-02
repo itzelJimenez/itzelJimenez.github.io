@@ -258,3 +258,18 @@ filter: none;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
 }
+.invert{
+      filter: invert(100%);
+}
+.invert:hover{
+      filter: invert(0%);
+}
+
+.line-bottom{
+  padding-bottom: 5%;
+  border-bottom: solid 2px white;
+}
+
+.m-t{
+  margin-top: 15%
+}
