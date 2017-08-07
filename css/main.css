@@ -197,7 +197,7 @@ p{
   padding: 10%;
   cursor: pointer;
 }
-.cv:hover{
+.cv a:hover{
   color: black;
   background-color: white;
 }
