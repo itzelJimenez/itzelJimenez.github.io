@@ -75,6 +75,25 @@ body{
   width: 100%;
   align-items: center;
 }
+
+.fixed-action-mobile {
+    position: fixed;
+    right: 23px;
+    bottom: 90%;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.fixed-logo {
+    position: fixed;
+    left: 23px;
+    bottom: 87%;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
 .logo{
   position: absolute;
   margin-top: 5%;
@@ -289,4 +308,39 @@ h1>i{
 }
 #sobre-mi .row{
   margin-bottom: 0;
+}
+
+#contacto-text{
+  opacity: 0.1;
+}
+#personal-contacto{
+  opacity: 0.1;
+}
+.grises img {
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+filter: Gray(); /* IE4-8 and 9 */
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.grises img:hover { 
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }

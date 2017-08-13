@@ -1,8 +1,8 @@
  var cargarPagina = function(){
  	mostrarPortada1();
  	cambiarPortadas();
-
-  $('#menu').click( function(){ $('.tap-target').tapTarget('open');})
+      $(".button-collapse").sideNav();
+      $('#menu').click( function(){ $('.tap-target').tapTarget('open');});
 
  };
 

@@ -16,12 +16,12 @@
     
     
       <section id="contacto" class="full-width white">
-        <div class="logo logo-inverse"> <a href="../index.html" class="inicio"><img src="../img/logo7IJD.png" alt="logo" width="64px" ></a></div>
-        <div class="row">
-          <h2 class="section-titles_size center">Contacto</h2>
+        <div class="fixed-logo logo-inverse"> <a href="../index.html" class="inicio"><img src="../img/logo7IJD.png" alt="logo" width="64px" ></a></div>
+        <div class="row portada--logo__center">
+          <h2 class="section-titles_size center" id="contacto-text">Contacto</h2>
         </div>
-        <div class="row">
-          <div class="col s10 offset-s1">
+        <div class="row hide" id="personal-contacto">
+          <div id="contacto-desktop" class="col s10 offset-s1 hide-on-small-only" >
             <div class="row portada--logo__center">
               <div class="col s3 center">
                 <a href="tel:5536512594" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="55 36 51 25 94">
@@ -34,14 +34,40 @@
                 </a>
               </div>
               <div class="col s3 center">
-                <a href="https://www.linkedin.com/in/itzel-jim%C3%A9nez-dom%C3%ADnguez-b947b7145/" target="_blank">
-                  <img src="../img/logos/linkedin.png" class="responsive-img" alt="linkedin">
-                </a>
+                <a href="https://www.linkedin.com/in/itzel-jim%C3%A9nez-dom%C3%ADnguez-b947b7145/" target="_blank"  class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Itzel Jiménez Domínguez">
+                    <img src="../img/logos/linkedin.png" class="responsive-img" alt="linkedin">
+                  </a>
               </div>
               <div class="col s3 center">
-                <a href="https://github.com/itzelJimenez" target="_blank">
-                  <img src="../img/logos/github.png" class="responsive-img" alt="github">
-                </a>
+                <a href="https://github.com/itzelJimenez" target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="itzeljimenez">
+                    <img src="../img/logos/github.png" class="responsive-img" alt="github">
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div id="contacto-mobile" class="show-on-small hide-on-med-and-up valign-wrapper" >
+            <div class="row" style="margin-top: 40%;">
+              <div class="col s8 offset-s2">
+                <div class="col s6 offset-s6 center">
+                  <a href="tel:5536512594" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="55 36 51 25 94">
+                    <img src="../img/logos/phone.png" class="responsive-img" alt="teléfono">
+                  </a>
+                </div>
+                <div class="col s6 center">
+                  <a href="mailto:itzeljimenez.do@gmail.com" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="itzejimenez.do@gmail.com">
+                    <img src="../img/logos/mail.png" class="responsive-img" alt="correo"> 
+                  </a>
+                </div>
+                <div class="col s6 offset-s6 center">
+                  <a href="https://www.linkedin.com/in/itzel-jim%C3%A9nez-dom%C3%ADnguez-b947b7145/" target="_blank"  class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Itzel Jiménez Domínguez">
+                    <img src="../img/logos/linkedin.png" class="responsive-img" alt="linkedin">
+                  </a>
+                </div>
+                <div class="col s6 center">
+                  <a href="https://github.com/itzelJimenez" target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="itzeljimenez">
+                    <img src="../img/logos/github.png" class="responsive-img" alt="github">
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -50,7 +76,7 @@
         <div class=" portada--fixed-Under">
           <a class="flecha portada--font__title" href="../index.html"><i class="fa fa-angle-up fa-4x black-text" aria-hidden="true"></i></a>
         </div>
-        <div class="menu-blanco fixed-action-btn">
+        <div class="menu-blanco fixed-action-btn hide-on-small-only">
           <a class="btn-floating white" href="#"><i class="fa fa-bars grey-text  fa-3x black-text" aria-hidden="true"></i></a>
           <ul>
             <li><a class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="Inicio" href="../index.html"><i class="fa fa-home black-text" aria-hidden="true"></i></a></li>
@@ -60,10 +86,36 @@
           </ul>
         </div>
 
+        <div class="hide-on-med-and-up menu-mobile">
+            <ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="">
+                <img src="../img/menu/imagenmenu.png" class="responsive-img">
+              </div>
+              
+              <a href="views/sobremi.html" class="center"><strong class="black-text name">Itzel Jiménez / Front end Developer</strong></a>
+              <hr>
+            </div></li>
+            <li><a href="../index.html"><i class="fa fa-home fa-2x " aria-hidden="true"></i>    Inicio</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/sobremi.html"><i class="fa fa-address-card-o fa-2x " aria-hidden="true"></i>    Sobre mi</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/habilidades.html"><i class="material-icons">build</i>    Habilidades</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/proyectos.html"><i class="fa fa-code fa-2x " aria-hidden="true"></i>    Proyectos</a></li>
+            <li><div class="divider"></div></li>
+            <li class="grey"><a href="views/contacto.html"><i class="fa fa-envelope-o fa-2x " aria-hidden="true"></i>    Contacto</a></li>
+            <li><div class="divider"></div></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse fixed-action-mobile white " style="padding: 1%;"><i class="fa fa-bars grey-text  fa-3x black-text" aria-hidden="true"></i></a>
+        </div>
+
+
       </section>
 
     <script src="../js/jquery-3.2.1.min.js" charset="utf-8"></script>
     <script src="../js/materialize.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/contacto.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
   </body>
 </html>

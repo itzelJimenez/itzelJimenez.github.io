@@ -53,7 +53,7 @@
           <div class=" portada--fixed-Under">
             <a class="flecha portada--font__title sobre-mi" href="views/sobremi.html"><i class="fa fa-angle-down fa-4x white-text" aria-hidden="true"></i></a>
           </div>
-          <div class="menu fixed-action-btn">
+          <div class="menu fixed-action-btn hide-on-small-only">
             <a href="#" class="btn-floating black"><i class="fa fa-bars grey-text  fa-3x " aria-hidden="true"></i></a>
             <ul>
               <li><a class="btn-floating black white-text tooltipped" data-position="bottom" data-delay="50" data-tooltip="Sobre mí"  href="views/sobremi.html"><i class="fa fa-address-card-o" aria-hidden="true"></i></a></li>
@@ -62,8 +62,35 @@
               <li><a class="btn-floating black tooltipped contacto" data-position="bottom" data-delay="50" data-tooltip="Contacto" href="views/contacto.html"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
             </ul>
           </div>
-      </header>
 
+
+          <div class="hide-on-med-and-up menu-mobile">
+            <ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="">
+                <img src="img/menu/imagenmenu.png" class="responsive-img">
+              </div>
+              
+              <a href="views/sobremi.html" class="center"><strong class="black-text name">Itzel Jiménez / Front end Developer</strong></a>
+              <hr>
+            </div></li>
+            <li><a href="views/sobremi.html"><i class="fa fa-address-card-o fa-2x " aria-hidden="true"></i>    Sobre mi</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/habilidades.html"><i class="material-icons">build</i>    Habilidades</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/proyectos.html"><i class="fa fa-code fa-2x " aria-hidden="true"></i>    Proyectos</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="views/contacto.html"><i class="fa fa-envelope-o fa-2x " aria-hidden="true"></i>    Contacto</a></li>
+            <li><div class="divider"></div></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse fixed-action-mobile black"><i class="fa fa-bars grey-text  fa-3x " aria-hidden="true"></i></a>
+          </div>
+
+
+      </header>
+      
+
+        
     
     <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
     <script src="js/materialize.min.js" charset="utf-8"></script>
