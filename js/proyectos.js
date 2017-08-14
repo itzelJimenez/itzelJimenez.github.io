@@ -1,6 +1,7 @@
 var cargarPagina = function(){
+	$('.carousel').carousel();
 	bioMp(document.getElementById('yape'), {
-	    url: 'https://jesus-es-tu-pastor.github.io/el-pastorcito-feliz/public/index.html',
+	    url: 'https://itzeljimenez.github.io/geolocalizacion-restaurantes/',
 	    view: 'left',
 	    image: '../images/iphone6_side_left_gold.png',
 	    scale: 0.5
@@ -15,7 +16,7 @@ var cargarPagina = function(){
 	bioMp(document.getElementById('angelesazules'), {
 	    url: 'https://elilv21.github.io/angelesAzules/',
 	    view: 'right',
-	    image: '../images/iphone6_side_right_white.png',
+	    image: '../images/iphone6_side_right_gold.png',
 	    scale: 0.5
 	});
 }

@@ -35,6 +35,12 @@ body{
 	font-family: 'Black Ops One', cursive;
 }
 
+.portada--font__medium{
+  margin-top: 0;
+  font-size: 20rem;
+  color: grey;
+  font-family: 'Black Ops One', cursive;
+}
 
 .portada--titles__primary{
   margin-top: -1%;

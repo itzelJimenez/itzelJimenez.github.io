@@ -13,39 +13,46 @@
     <title>Sobre mi</title>
   </head>
   <body class="">
-    <section id="habilidades" class="full-width white">
-        <div class="logo logo-inverse"> <a href="../index.html" class="inicio"><img src="../img/logo7IJD.png" alt="logo" width="64px" ></a></div>
+
+    <div class="row " id="preloader">
+      <h1 class="right"><i class="material-icons tool portada--logo__center" style="font-size: 20rem;">build</i></h1>
+    </div>
+    <section class="full-width white">
+        <div class="logo-inverse fixed-logo"> <a href= "../index.html" class="inicio"><img src="../img/logo7IJD.png" alt="logo" width="64px" ></a></div>
                 
-        <div class="row ">
-          <div class="row center"><h2>Habilidades</h2></div>
+        <div class="row hide" id="habilidades">
+          <div class="row center">
+              <h2 class="center hide-on-small-only">Habilidades</h2>
+              <h2 class="center hide-on-med-and-up" style="margin-top: 20%">Habilidades </h2>
+          </div>
           <div class="row valign-wrapper">  
-            <div class="col m8" style="margin-top: 5%;"> 
-            <div class="col m8 offset-m2">
-              <div class="row">
-              <div class="col s3"><img src="../img/html5.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/css3.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/sass.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/materialize.png" class="responsive-img" alt="skills"></div>
+            <div class="col m8 s12" style="margin-top: 5%;"> 
+             <div class="col m8 offset-m2 " id="tools">
+                <div class="row">
+                <div class="col s3"><img src="../img/html5.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/css3.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/sass.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/materialize.png" class="responsive-img" alt="skills"></div>
 
-              <div class="col s3"><img src="../img/bootstrap.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/responsive.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/bower.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/gulp.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/bootstrap.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/responsive.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/bower.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/gulp.png" class="responsive-img" alt="skills"></div>
 
-              <div class="col s3"><img src="../img/js.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/nodejs.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/ajax.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/react.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/js.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/nodejs.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/ajax.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/react.png" class="responsive-img" alt="skills"></div>
 
-              <div class="col s3"><img src="../img/npm.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/git.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/github.png" class="responsive-img" alt="skills"></div>
-              <div class="col s3"><img src="../img/jq.png" class="responsive-img" alt="skills"></div>
-            </div>
+                <div class="col s3"><img src="../img/npm.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/git.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/github.png" class="responsive-img" alt="skills"></div>
+                <div class="col s3"><img src="../img/jq.png" class="responsive-img" alt="skills"></div>
+              </div>
             </div>
           </div>
-          <div class="col m4">
-            <div class="row c">
+          <div class="col m4  hide-on-small-only hide-on-med-only" id="gif">
+            <div class="row ">
               <h1 class="right"><i class="material-icons tool" style="font-size: 20rem;">build</i></h1>
             </div>
           </div>
@@ -68,8 +75,43 @@
           </ul>
         </div>
 
+
+
+          <div class="hide-on-med-and-up menu-mobile">
+            <ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="">
+                <img src="../img/menu/imagenmenu.png" class="responsive-img">
+              </div>
+              
+              <a href="views/sobremi.html" class="center"><strong class="black-text name">Itzel Jiménez / Front end Developer</strong></a>
+              <hr>
+            </div></li>
+            <li><a href="../index.html"><i class="fa fa-home fa-2x " aria-hidden="true"></i>    Inicio</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="sobremi.html"><i class="fa fa-address-card-o fa-2x " aria-hidden="true"></i>    Sobre mi</a></li>
+            <li><div class="divider"></div></li>
+            <li class="grey"><a href="habilidades.html"><i class="material-icons">build</i>    Habilidades</a></li>
+            <li><div class="divider"></div></li>
+            <li ><a href="proyectos.html"><i class="fa fa-code fa-2x " aria-hidden="true"></i>    Proyectos</a></li>
+            <li><div class="divider"></div></li>
+            <li ><a href="contacto.html"><i class="fa fa-envelope-o fa-2x " aria-hidden="true"></i>    Contacto</a></li>
+            <li><div class="divider"></div></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse fixed-action-mobile white " style="padding: 1%;"><i class="fa fa-bars grey-text  fa-3x black-text" aria-hidden="true"></i></a>
+        </div>
+
       </section>
     <script src="../js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script>
+      setInterval(function(){
+          $('#preloader').addClass('hide');
+        }, 3000);
+        setInterval(function(){
+          $('#habilidades').removeClass('hide');
+        }, 3000);
+
+    </script>
     <script src="../js/materialize.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="../js/main.js"></script>
   </body>
